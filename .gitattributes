@@ -1,2 +1,73 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-11b88f4/www.decorilla.com/online-decorating/wp-content/uploads/2022/12/Simple-elegant-living-room-ideas-by-Decorilla-designer-Jatnna-M.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#ideas {
+    background-color: #fff;
+}
+
+.idea {
+    border-bottom: 1px solid #ddd;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.idea img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
